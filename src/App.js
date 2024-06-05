@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
+import Usuarios from './Usuarios';
+import Pokemon from './Pokemon';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+     <Usuarios></Usuarios>
+     <Pokemon></Pokemon>
+    
     </div>
   );
 }
